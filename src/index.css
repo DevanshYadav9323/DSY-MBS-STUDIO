@@ -23,7 +23,7 @@
 
 body {
   /* background-color: var(--body-color); */
-  background: url("https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?t=st=1709203548~exp=1709207148~hmac=9ac40b96e4e3c2a74de296b8cf188481855a48389b09616ac313495594f0c220&w=996");
+  background: url("background2.jpg");
   background-color: var(--text-color);
   background-size: cover;
   color: var(--text-color);

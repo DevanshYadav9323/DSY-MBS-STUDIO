@@ -1,0 +1,161 @@
+.checkout-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_img {
+    background: url(https://xxboxnews.blob.core.windows.net/prod/sites/2/2022/09/FREESTYLIN_FINAL_LANDSCAPE_1920X1080_JPG-9928423d535d3d18f841.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(0px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.form_wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10% auto 0;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+}
+
+.title_container {
+    text-align: center;
+    margin: -15px -15px 15px;
+    padding: 15px 0;
+    border-bottom: 1px dashed #ccc;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #151414;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #151414;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.col_full {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #151414;
+}
+
+.input_field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input_field>span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    height: 100%;
+    text-align: center;
+    width: 30px;
+}
+
+.input_field select,
+.input_field input[type="number"],
+.input_field input[type="text"] {
+    width: calc(100% - 35px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.30s ease-in-out;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.input_field select:focus,
+.input_field input[type="number"]:focus,
+.input_field input[type="text"]:focus {
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid #f5ba1a;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+    background: #f5ba1a;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+    transition: all 0.30s ease-in-out;
+    border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+    background: #daa106;
+}
+
+@media (max-width: 600px) {
+    .form_wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .bg_img {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+
+    .form_wrapper {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        -moz-backdrop-filter: blur(10px);
+    }
+
+}

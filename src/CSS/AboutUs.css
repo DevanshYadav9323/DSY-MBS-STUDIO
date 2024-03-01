@@ -49,3 +49,15 @@
         background: none;
     }
 }
+
+@media (max-width: 900px) {
+
+    .flexbox {
+        flex-direction: column;
+    }
+
+    .leftside h1 {
+        font-size: 70px;
+    }
+
+}

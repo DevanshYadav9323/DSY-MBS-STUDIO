@@ -1,0 +1,21 @@
+.mediaContainer {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.mediaContainer h1 {
+    font-size: 100px;
+    color: #F5F4FC;
+}
+
+@media (max-width: 900px) {
+
+    .mediaContainer h1 {
+        font-size: 50px;
+    }
+
+}

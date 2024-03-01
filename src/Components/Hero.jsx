@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "../CSS/Hero.css";
@@ -77,9 +78,7 @@ function Hero() {
                         <h2 className="content-hero-subtitle" data-aos-delay="500" data-aos="fade-up">
                             Releasing early 2025
                         </h2>
-                        <a href="/purchase" className="content-hero-button" data-aos-delay="1200" data-aos="fade-up">
-                            Preorder
-                        </a>
+                        <NavLink data-aos-delay="1200" data-aos="fade-up" className="content-hero-button" id='navlink' to="/purchase">Preorder</NavLink>
                     </div>
                 </div>
             </div>

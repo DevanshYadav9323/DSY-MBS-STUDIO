@@ -1,14 +1,9 @@
 html,
 body {
-    /* margin: 0;
-    padding: 0; */
-    width: 100%;
     scroll-behavior: smooth;
-    /* background-color: #F6F6F6; */
 }
 
 .section-hero {
-    /* height: 200vh; */
     height: 120vh;
 }
 
@@ -43,9 +38,7 @@ body {
 .content-hero {
     position: absolute;
     top: calc(50% - 150px);
-    /* text-align: center; */
     width: 1200px;
-    /* left: calc(50% - 600px); */
     left: 20px;
 }
 
@@ -76,7 +69,6 @@ body {
     border-radius: 22px;
     text-decoration: none;
     color: #F5F4FC;
-    /* background-color: #0DABF9; */
     background-color: #ffad01;
 }
 
@@ -87,6 +79,14 @@ body {
 }
 
 @media (max-width: 900px) {
+
+    .section-hero {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
     .content-hero-container {
         padding: 0;
         margin-bottom: 80px;
@@ -110,7 +110,7 @@ body {
     .content-hero .content-hero-subtitle {
         font-size: 26px;
         padding: 0 0 0;
-        margin: 8px 0 100px;
+        margin: 8px 0 50px;
     }
 
     .section-hero-sticky {
