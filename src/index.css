@@ -23,12 +23,12 @@
 
 body {
   /* background-color: var(--body-color); */
-  background: url("background2.jpg");
+  background: url("/background2.jpg");
   background-color: var(--text-color);
   background-size: cover;
   color: var(--text-color);
   font-family: var(--body-font);
-  cursor: url("cursor.png"), auto;
+  cursor: url("/cursor.png"), auto;
 }
 
 ul {

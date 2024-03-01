@@ -83,7 +83,7 @@ const NavbarHook = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <NavLink to="/" className="nav__logo" onClick={()=>{window.location.href("")}}>
+        <NavLink to="/" className="nav__logo">
         <img height="40px" src="https://mbsstudios.com/wp-content/uploads/2023/07/MBS-Logo-01-1.png"></img>
         </NavLink>
 
